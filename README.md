@@ -7,7 +7,7 @@ A script to install gnupg2 with the GPGTools scdaemon shared-access patch
 - Install [MacPorts](https://www.macports.org)
 - Sanity check [the script](https://github.com/felddy/gnupg-scdaemon-shared-access/blob/master/install_gnupg2.sh) in this repo.
 - If you trust what you read execute:
-  - `curl https://raw.githubusercontent.com/felddy/gnupg-scdaemon-shared-access/master/install_gnupg2.sh | bash`
+  - `curl https://raw.githubusercontent.com/felddy/gnupg-scdaemon-shared-access/master/install_gnupg2.sh | sudo bash`
 - Add `shared-access` to your `.gnupg/scdaemon.conf`
 - Insert your token.
 - `killall -9 gpg-agent; gpg --card-status`
